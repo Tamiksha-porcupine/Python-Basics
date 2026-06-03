@@ -1,6 +1,6 @@
 # Python Fundamentals
 
-A structured repository of beginner-to-intermediate Python programming notebooks. Each folder contains a focused code file and its own dedicated README explaining the concepts covered. This repository serves as a clean, practical reference for core Python topics — built from hands-on practice and real code execution.
+A structured repository of beginner-to-intermediate Python programming notebooks. Each folder contains a focused code file and its own dedicated README explaining the concepts covered. This repository serves as a clean, practical reference for core Python topics built from hands-on practice and real code execution.
 
 ---
 
@@ -84,7 +84,4 @@ Covers the string data type in depth, with a focus on how Python positions and r
 ---
 
 ## Author
-Tamiksha Sharma
-
-**Deeya**
-Data Science Student | Python | Machine Learning | Deep Learning
+**Tamiksha Sharma**
