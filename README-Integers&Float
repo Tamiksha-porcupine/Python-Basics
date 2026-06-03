@@ -1,0 +1,36 @@
+Python Basics Practice: Operators, Type Casting & Strings
+Overview
+
+This Jupyter Notebook introduces fundamental Python programming concepts through practical examples and exercises. It focuses on arithmetic operations, comparison operators, variables, type casting, and string manipulation techniques that form the foundation of Python development.
+
+The notebook is designed for beginners who want to build confidence in working with different data types and performing common programming tasks.
+
+Topics Covered
+Arithmetic Operators
+
+Learn how Python performs mathematical calculations, including addition, subtraction, multiplication, division, modulus operations, floor division, and exponentiation.
+
+Working with Variables
+
+Understand how to store, access, and manipulate data using variables.
+
+Built-in Numeric Functions
+
+Explore commonly used functions for working with numbers and performing basic calculations.
+
+Comparison Operators
+
+Learn how to compare values and evaluate logical conditions using relational operators.
+
+Type Casting
+
+Understand how to convert data between different types such as strings, integers, and floating-point numbers.
+
+String Manipulation
+
+Practice common string operations, including splitting text into smaller parts and combining multiple strings.
+
+Extracting Information from Text
+
+Learn techniques for retrieving useful data from strings and converting text into usable numeric values.
+
