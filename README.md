@@ -22,22 +22,6 @@ Python-Fundamentals/
 
 ## What This Repository Covers
 
-### Integers and Floats — Operators, Type Casting, and String Methods
-
-Covers the numerical foundation of Python programming along with type conversion and string manipulation utilities.
-
-**Topics included:**
-- Arithmetic operators: addition, subtraction, multiplication, division, floor division, modulus, and exponentiation
-- Using variables with all arithmetic operations
-- Built-in numeric functions: `abs()` and `round()`
-- Comparison operators: `==`, `!=`, `>`, `<`, `>=`, `<=` — both direct and variable-based
-- Operator chaining
-- Type Casting: converting strings to integers, integers to strings, and understanding float-to-int truncation behavior
-- String `.split()` method: splitting by spaces, commas, hashes, and custom delimiters
-- String `.join()` method: reassembling lists back into strings with a custom delimiter
-- Practical use case: extracting numbers from strings like `"100 followers"`
-
----
 
 ### Strings — Indexing, Searching, and Positioning
 
@@ -57,6 +41,23 @@ Covers the string data type in depth, with a focus on how Python positions and r
 - `str.rindex()` — searching from the right side to find the last occurrence
 - Finding the second occurrence of a character using a start-position argument in `.index()`
 - Real-world string parsing example: extracting values from structured strings like `"ID:9482-NAME:Alex"`
+
+---
+
+### Integers and Floats — Operators, Type Casting, and String Methods
+
+Covers the numerical foundation of Python programming along with type conversion and string manipulation utilities.
+
+**Topics included:**
+- Arithmetic operators: addition, subtraction, multiplication, division, floor division, modulus, and exponentiation
+- Using variables with all arithmetic operations
+- Built-in numeric functions: `abs()` and `round()`
+- Comparison operators: `==`, `!=`, `>`, `<`, `>=`, `<=` — both direct and variable-based
+- Operator chaining
+- Type Casting: converting strings to integers, integers to strings, and understanding float-to-int truncation behavior
+- String `.split()` method: splitting by spaces, commas, hashes, and custom delimiters
+- String `.join()` method: reassembling lists back into strings with a custom delimiter
+- Practical use case: extracting numbers from strings like `"100 followers"`
 
 ---
 
