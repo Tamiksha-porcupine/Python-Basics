@@ -9,13 +9,15 @@ A structured repository of beginner-to-intermediate Python programming notebooks
 ```
 Python-Fundamentals/
 │
+├── Strings/
+│   ├── Strings.ipynb
+│   └── README.md
+|
 ├── Integers-and-Floats/
 │   ├── Python-Integers-Float.ipynb
 │   └── README.md
 │
-├── Strings/
-│   ├── Strings.ipynb
-│   └── README.md
+
 ```
 
 ---
