@@ -17,7 +17,9 @@ Python-Fundamentals/
 │   ├── Python-Integers-Float.ipynb
 │   └── README.md
 │
-
+├── Lists-Tuples-Sets/
+│   ├── Lists-Tuples-Sets.ipynb
+│   └── README.md
 ```
 
 ---
@@ -60,7 +62,6 @@ Covers the numerical foundation of Python programming along with type conversion
 - String `.split()` method: splitting by spaces, commas, hashes, and custom delimiters
 - String `.join()` method: reassembling lists back into strings with a custom delimiter
 - Practical use case: extracting numbers from strings like `"100 followers"`
-
 ---
 
 ## Key Concepts at a Glance
@@ -75,6 +76,23 @@ Covers the numerical foundation of Python programming along with type conversion
 | `.index()` vs `.find()` | Strings |
 | `.rindex()` and Multi-occurrence Search | Strings |
 | IndexError and ValueError handling | Strings |
+
+---
+
+### Lists, Tuples, and Sets — Data Structures, Methods, and Mutability
+
+Covers the foundational collection types in Python programming, focusing on sequence manipulation, performance optimization, and unique data filtering.
+
+**Topics included:**
+- List Basics: Creating lists, indexing, slicing, and checking for item existence using the in operator
+- Modifying Lists: Appending items, inserting at specific indices, and extending lists with another collection
+- Ordering and Sorting: Sorting lists in-place with .sort(), using the sorted() function, and reversing order
+- String Conversions: Transforming lists into strings using .join(), and turning strings into lists using .split()
+- The Mutability Trap: Understanding how list assignments create references, and how modifying one affects the other
+- Tuples: Creating immutable sequences, exploring their performance benefits, and understanding why they lack modification methods
+- Sets and Uniqueness: Creating sets, automatically eliminating duplicates, and adding or updating elements
+- Set Operations: Leveraging powerful mathematical operations like .intersection(), .difference(), and .union()
+
 
 ---
 
