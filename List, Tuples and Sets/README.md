@@ -4,11 +4,16 @@ This repository contains a Jupyter Notebook designed to demystify indexing quirk
 loopholes, memory allocation behaviors, and data structure performance tradeoffs.
 
 ## Key Concepts Covered
-### List Modification: Understanding in-place operations (.append(), .extend()) and how state persistence in Jupyter can lead to unexpected list compounding.
-### Nested Indexing: Accessing elements buried inside multi-dimensional collections using nested notation (list[i][j]).
-### Memory References & Mutability: Navigating Python’s assignment pointer behaviors (list_b = list_a), and differentiating between shallow copies and deep copies.
-### Tuple Immutability: Discovering how a technically "immutable" tuple can still have its contents altered if it references a mutable collection.
-### Set Operations & Optimization: Working with mathematical operations (unions, differences) and analyzing the dramatic 
+### List Modification
+Understanding in-place operations (.append(), .extend()) and how state persistence in Jupyter can lead to unexpected list compounding.
+### Nested Indexing
+Accessing elements buried inside multi-dimensional collections using nested notation (list[i][j]).
+### Memory References & Mutability
+Navigating Python’s assignment pointer behaviors (list_b = list_a), and differentiating between shallow copies and deep copies.
+### Tuple Immutability
+Discovering how a technically "immutable" tuple can still have its contents altered if it references a mutable collection.
+### Set Operations & Optimization
+Working with mathematical operations (unions, differences) and analyzing the dramatic 
 algorithmic performance differences between lists and sets.
 
 ## 1. Nesting vs. Extending Lists
@@ -21,9 +26,11 @@ To search for a nested item, Python's standard **in** membership operator only c
 When duplicating structures in Python, simple assignment (=) creates a new reference pointer rather
 than a new object.
 
-### Shallow Copy (.copy() or [:]): Creates a new outer list, but continues pointing to 
+### Shallow Copy (.copy() or [:]) 
+Creates a new outer list, but continues pointing to 
 original memory addresses for any nested lists.
-### Deep Copy (copy.deepcopy()): Recursively copies every single object inside the list, 
+### Deep Copy (copy.deepcopy())
+Recursively copies every single object inside the list, 
 ensuring 100% independence.
 
 ## 3. The Tuple Mutability Loophole
